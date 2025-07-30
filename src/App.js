@@ -35,7 +35,7 @@ const translations = {
       title: "Fur and Leather Items",
       description: "We buy leather jackets, leather coats, leather pants and lambskin coats!",
       furCoats: "For fur coats we pay competitive prices",
-      disclaimer: "PURCHASE OF FURS AND LEATHER - Only with simultaneous sale of gold YOU GET MONEY For your fur coat and gold quickly, discreetly and honestly"
+      disclaimer: "PURCHASE OF FURS AND LEATHER - Only with simultaneous sale of gold. For your fur coat and gold, we offer quick, discreet and honest service."
     },
     weBuy: {
       title: "We Buy:",
@@ -90,7 +90,7 @@ const translations = {
     hero: {
       title: "PREMIJNI OTKUP ZLATA",
       subtitle: "Vaš pouzdani partner za vrijedne predmete",
-      description: "Specijalizirani smo za otkup zlata, nakita, satova i drugih vrijednih predmeta. Profesionalno, diskretno i pošteno cijenjenje svih vaših dragocjenih posjeda."
+      description: "Specijalizirani smo za otkup zlata, nakita, satova i drugih vrijednih predmeta. Pružamo profesionalnu, diskretnu i poštenu uslugu za sve vaše dragocjene predmete."
     },
     availability: {
       title: "Naši stručnjaci su vam dostupni:",
@@ -105,7 +105,7 @@ const translations = {
       title: "Krzneni i kožni predmeti",
       description: "Otkupljujemo kožne jakne, kožne kapute, kožne pantalone i kapute od jagnjeće kože!",
       furCoats: "Za krzneni kaput plaćamo konkurentne cijene",
-      disclaimer: "OTKUP KRZNA I KOŽE - Samo uz istovremenu prodaju zlata DOBIJATE NOVAC Za vašu bundu i zlato brzo, diskretno i pošteno"
+      disclaimer: "OTKUP KRZNA I KOŽE - Samo uz istovremenu prodaju zlata. Za vašu bundu i zlato nudimo brzu, diskretnu i poštenu uslugu."
     },
     weBuy: {
       title: "Kupujemo:",
@@ -160,7 +160,7 @@ const translations = {
     hero: {
       title: "PREMIUM GOLDANKAUF",
       subtitle: "Ihr vertrauensvoller Partner für wertvolle Gegenstände",
-      description: "Wir sind spezialisiert auf den Ankauf von Gold, Schmuck, Uhren und anderen wertvollen Gegenständen. Professionell, diskret und faire Preisgestaltung für alle Ihre wertvollen Besitztümer."
+      description: "Wir sind spezialisiert auf den Ankauf von Gold, Schmuck, Uhren und anderen wertvollen Gegenständen. Professioneller Service, diskrete Abwicklung und faire Preisgestaltung für alle Ihre wertvollen Besitztümer."
     },
     availability: {
       title: "Unsere Experten stehen Ihnen zur Verfügung:",
@@ -169,13 +169,13 @@ const translations = {
     },
     goldSection: {
       title: "Goldankauf",
-      description: "Wir zahlen derzeit wettbewerbsfähige Preise für Goldgegenstände"
+      description: "Wir zahlen derzeit wettbewerbsfähige Preise für Goldgegenstände."
     },
     furSection: {
       title: "Pelz- und Lederwaren",
       description: "Wir kaufen Lederjacken, Ledermäntel, Lederhosen und Lammfellmäntel!",
-      furCoats: "Für Pelzmäntel zahlen wir wettbewerbsfähige Preise",
-      disclaimer: "ANKAUF VON PELZEN UND LEDER - Nur bei gleichzeitigem Verkauf von Gold ERHALTEN SIE GELD Für Ihren Pelzmantel und Gold schnell, diskret und ehrlich"
+      furCoats: "Für Pelzmäntel zahlen wir wettbewerbsfähige Preise.",
+      disclaimer: "ANKAUF VON PELZEN UND LEDER – Nur bei gleichzeitigem Verkauf von Gold. Wir bieten eine schnelle, diskrete und faire Abwicklung für Ihren Pelzmantel und Ihr Gold."
     },
     weBuy: {
       title: "Wir kaufen:",
@@ -210,15 +210,15 @@ const translations = {
     jewelrySection: {
       title: "Exklusive Schmuck-Kollektion",
       subtitle: "Professionelle Schmuckbewertung und -ankauf",
-      description: "Wir sind spezialisiert auf den Ankauf aller Arten von Schmuck einschließlich Gold, Silber, Platin und Edelsteine."
+      description: "Wir sind spezialisiert auf den Ankauf aller Arten von Schmuck, einschließlich Gold, Silber, Platin und Edelsteinen."
     },
     footer: {
       title: "Goldstein",
       description: "Premium Goldankauf"
     }
-  },
+  },  
   ro: {
-    title: "Goldstein - Cumpărare aur",
+    title: "Goldstein - Cumpărare de aur",
     nav: {
       home: "Acasă",
       watch: "Ceasuri",
@@ -228,24 +228,24 @@ const translations = {
       contact: "Contact"
     },
     hero: {
-      title: "CUMPĂRARE AUR PREMIUM",
+      title: "CUMPĂRARE DE AUR PREMIUM",
       subtitle: "Partenerul tău de încredere pentru obiecte valoroase",
-      description: "Suntem specializați în cumpărarea de aur, bijuterii, ceasuri și alte obiecte valoroase. Serviciu profesional, discret și prețuri corecte pentru toate bunurile tale prețioase."
+      description: "Suntem specializați în cumpărarea de aur, bijuterii, ceasuri și alte obiecte valoroase. Oferim un serviciu profesional, discret și prețuri corecte pentru toate bunurile tale prețioase."
     },
     availability: {
       title: "Experții noștri sunt la dispoziția ta:",
-      days: "ziua de cumpărare",
+      days: "Zi de cumpărare",
       time: "10:00-17:00"
     },
     goldSection: {
-      title: "Cumpărare aur",
-      description: "Plătim în prezent prețuri competitive pentru obiectele de aur"
+      title: "Cumpărare de aur",
+      description: "Plătim în prezent prețuri competitive pentru obiectele din aur."
     },
     furSection: {
       title: "Obiecte din blană și piele",
       description: "Cumpărăm jachete din piele, paltoane din piele, pantaloni din piele și paltoane din piele de miel!",
-      furCoats: "Pentru paltoane din blană plătim prețuri competitive",
-      disclaimer: "CUMPĂRAREA BLĂNURILOR ȘI PIELII - Doar cu vânzarea simultană de aur PRIMIȚI BANI Pentru paltonul tău din blană și aur rapid, discret și cinstit"
+      furCoats: "Pentru paltoanele din blană plătim prețuri competitive.",
+      disclaimer: "CUMPĂRAREA BLĂNURILOR ȘI PIELII – Doar împreună cu vânzarea de aur. Pentru paltonul tău din blană și aur oferim un serviciu rapid, discret și corect."
     },
     weBuy: {
       title: "Cumpărăm:",
@@ -268,7 +268,7 @@ const translations = {
         "Ceasuri",
         "Diamante",
         "Bijuterii de modă",
-        "Picturi vechi de artă",
+        "Picturi vechi",
         "Jachete/paltoane din piele"
       ]
     },
@@ -278,20 +278,54 @@ const translations = {
       description: "De la paltoane luxoase din blană până la jachete premium din piele, oferim prețuri competitive pentru toate tipurile de îmbrăcăminte exterioară."
     },
     jewelrySection: {
-      title: "Colecția exkluzivă de bijuterii",
+      title: "Colecția exclusivă de bijuterii",
       subtitle: "Evaluare și cumpărare profesională de bijuterii",
-      description: "Suntem specializați în cumpărarea tuturor tipurilor de bijuterii inclusiv aur, argint, platină și pietre prețioase."
+      description: "Suntem specializați în cumpărarea tuturor tipurilor de bijuterii, inclusiv aur, argint, platină și pietre prețioase."
     },
     footer: {
       title: "Goldstein",
-      description: "Cumpărare aur premium"
+      description: "Cumpărare de aur premium"
     }
   }
+  
 };
 
 function App() {
   const [language, setLanguage] = useState('en');
   const t = translations[language];
+
+  // Function to handle language switching with proper cleanup
+  const handleLanguageChange = (newLanguage) => {
+    console.log('Switching language to:', newLanguage);
+    console.log('Available translations:', Object.keys(translations));
+    console.log('Selected translation:', translations[newLanguage]);
+    
+    // Clear any potential text rendering issues
+    document.documentElement.lang = newLanguage;
+    document.body.lang = newLanguage;
+    
+    // Force a re-render to ensure proper text display
+    setLanguage(newLanguage);
+    
+    // Clear any potential browser text rendering cache
+    if (window.getComputedStyle) {
+      const elements = document.querySelectorAll('*');
+      elements.forEach(el => {
+        const style = window.getComputedStyle(el);
+        if (style.fontFamily) {
+          el.style.fontFamily = style.fontFamily;
+        }
+      });
+    }
+  };
+
+  // Monitor language changes
+  useEffect(() => {
+    console.log('Current language:', language);
+    console.log('Current translations:', t);
+    console.log('Hero subtitle:', t.hero.subtitle);
+    console.log('Hero description:', t.hero.description);
+  }, [language, t]);
 
   // Refs for GSAP animations
   const heroRef = useRef(null);
@@ -447,7 +481,7 @@ function App() {
   }, [language]); // Re-run animations when language changes
 
   return (
-    <div className="App">
+    <div className="App" lang={language}>
       {/* Navigation */}
       <nav ref={navbarRef} className="navbar">
         <div className="nav-container">
@@ -470,27 +504,35 @@ function App() {
           <div className="language-selector">
             <button 
               className={language === 'en' ? 'active' : ''} 
-              onClick={() => setLanguage('en')}
+              data-lang="en"
+              aria-label="English"
+              onClick={() => handleLanguageChange('en')}
             >
-              EN
+              <span>EN</span>
             </button>
             <button 
               className={language === 'hr' ? 'active' : ''} 
-              onClick={() => setLanguage('hr')}
+              data-lang="hr"
+              aria-label="Croatian"
+              onClick={() => handleLanguageChange('hr')}
             >
-              HR
+              <span>HR</span>
             </button>
             <button 
               className={language === 'de' ? 'active' : ''} 
-              onClick={() => setLanguage('de')}
+              data-lang="de"
+              aria-label="German"
+              onClick={() => handleLanguageChange('de')}
             >
-              DE
+              <span>DE</span>
             </button>
             <button 
               className={language === 'ro' ? 'active' : ''} 
-              onClick={() => setLanguage('ro')}
+              data-lang="ro"
+              aria-label="Romanian"
+              onClick={() => handleLanguageChange('ro')}
             >
-              RO
+              <span>RO</span>
             </button>
           </div>
         </div>
@@ -672,13 +714,34 @@ function App() {
               </div>
               <div className="contact-info">
                 <div className="phone-numbers">
-                  <div className="phone-number">+04 733 753 924</div>
-                  <div className="phone-number">+386-1 600 93 42</div>
-                  <div className="phone-number">+386-2 600 14 04</div>
-                  <div className="phone-number">+386-2 888 42 31</div>
-                  <div className="phone-number">+386-597 90404</div>
-                  <div className="phone-number">+40-31 630 4061</div>
-                  <div className="phone-number">+49 177 4444232</div>
+                  <div className="phone-number">
+                    <span className="phone-label">+49 177 4444 232</span>
+                    <span className="country-label">(International Number) - Germany</span>
+                  </div>
+                  <div className="phone-number">
+                    <span className="phone-label">+04 733 753 924</span>
+                    <span className="country-label">Romania</span>
+                  </div>
+                  <div className="phone-number">
+                    <span className="phone-label">+386-1 600 93 42</span>
+                    <span className="country-label">Slovenia</span>
+                  </div>
+                  <div className="phone-number">
+                    <span className="phone-label">+386-2 600 14 04</span>
+                    <span className="country-label">Slovenia</span>
+                  </div>
+                  <div className="phone-number">
+                    <span className="phone-label">+386-2 888 42 31</span>
+                    <span className="country-label">Slovenia</span>
+                  </div>
+                  <div className="phone-number">
+                    <span className="phone-label">+386-597 90404</span>
+                    <span className="country-label">Slovenia</span>
+                  </div>
+                  <div className="phone-number">
+                    <span className="phone-label">+40-31 630 4061</span>
+                    <span className="country-label">Romania</span>
+                  </div>
                 </div>
                 <div className="email">info@goldstein.site</div>
               </div>
