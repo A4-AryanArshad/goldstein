@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -13,11 +17,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.6;
   color: #333;
+  overflow-x: hidden;
 }
 
 .App {
   min-height: 100vh;
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 .container {
@@ -707,10 +713,17 @@ body {
   align-items: center;
 }
 
+.footer-center {
+  text-align: center;
+  max-width: 500px;
+}
+
 .footer-logo {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 12px;
+  margin-bottom: 30px;
 }
 
 .footer-logo .logo-circle {
@@ -730,6 +743,48 @@ body {
   font-size: 28px;
   font-weight: bold;
   color: white;
+}
+
+.company-info {
+  margin-bottom: 20px;
+}
+
+.company-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #4CAF50;
+}
+
+.company-address {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #ccc;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.phone-numbers {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.phone-number {
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.3;
+}
+
+.email {
+  font-size: 16px;
+  color: #4CAF50;
+  font-weight: 500;
+  margin-top: 10px;
 }
 
 /* Custom styles for images */
@@ -756,80 +811,317 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+    max-width: 100%;
+  }
+  
+  .nav-container {
+    padding: 0 15px;
+  }
+  
   .nav-menu {
     display: none;
   }
   
-  .hero-content {
-    grid-template-columns: 1fr;
-    gap: 40px;
+  .language-selector {
+    gap: 8px;
+  }
+  
+  .language-selector button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+  
+  /* Hero section fixes */
+  .hero {
+    min-height: auto;
+    padding: 100px 0 40px;
+  }
+  
+  .hero-background {
+    padding: 20px;
   }
   
   .hero-title {
-    font-size: 4rem;
-    left: 5%;
+    font-size: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
+  
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .hero-left {
+    display: none;
   }
   
   .hero-card {
-    padding: 30px;
+    display: none;
   }
   
-  .hero-subtitle {
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .watch-background {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+  }
+  
+  .hero-right {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .hero-text {
+    text-align: center;
+  }
+  
+  .hero-text h2 {
+    text-align: center;
     font-size: 1.5rem;
+    margin-bottom: 15px;
   }
   
-  .overlay-text h2 {
-    font-size: 2rem;
-  }
-  
-  .overlay-text p {
+  .hero-text p {
+    text-align: center;
     font-size: 1rem;
+    line-height: 1.6;
   }
   
-  .watch-circle {
-    width: 60px;
-    height: 60px;
+  .hero-products {
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
   }
   
-  .watch-circle::before {
-    font-size: 20px;
+  .product-item {
+    width: 100%;
+    max-width: 150px;
+    text-align: center;
+  }
+  
+  /* Mobile image sizing */
+  #imager {
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+    max-width: 100%;
+  }
+  
+  #heighter, #heighterr {
+    height: 100px;
+    width: 100%;
+    object-fit: contain;
+    max-width: 100%;
+  }
+  
+  #lkj {
+    height: 200px;
+    width: 100%;
+    max-width: 250px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .coat-item img,
+  .jewelry-item img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+  }
+  
+  .fur-items img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+  }
+  
+  /* Section fixes */
+  .availability {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .availability h2 {
+    text-align: center;
+    font-size: 1.8rem;
   }
   
   .availability-cards {
     grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .availability-card {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+  
+  .gold-section {
+    padding: 40px 0;
   }
   
   .gold-content {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .gold-text {
+    text-align: center;
+  }
+  
+  .gold-text h2 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  
+  .gold-text p {
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .fur-section {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .fur-section h2 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  
+  .fur-section > .container > p {
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .fur-highlight {
+    text-align: center;
+  }
+  
+  .fur-highlight h3 {
+    text-align: center;
+  }
+  
+  .fur-disclaimer {
+    text-align: center;
   }
   
   .fur-items {
     grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .we-buy {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .we-buy-card {
+    text-align: center;
+    padding: 25px;
+  }
+  
+  .we-buy-card h2 {
+    text-align: center;
+    font-size: 1.8rem;
   }
   
   .we-buy-grid {
     grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  
+  .we-buy-item {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .coats-section,
+  .jewelry-section {
+    padding: 40px 0;
   }
   
   .coats-content,
   .jewelry-content {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .coats-text,
+  .jewelry-text {
+    text-align: center;
+  }
+  
+  .coats-text h2,
+  .jewelry-text h2 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  
+  .coats-text h3,
+  .jewelry-text h3 {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  
+  .coats-text p,
+  .jewelry-text p {
+    text-align: center;
+    font-size: 1rem;
   }
   
   .coats-gallery,
   .jewelry-gallery {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .footer {
+    padding: 40px 0;
   }
   
   .footer-content {
-    grid-template-columns: 1fr;
-    gap: 40px;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
   }
   
-  .footer-images {
-    flex-wrap: wrap;
+  .footer-center {
+    max-width: 100%;
+  }
+  
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+  
+  .company-info {
+    margin-bottom: 15px;
+  }
+  
+  .phone-numbers {
+    gap: 8px;
+  }
+  
+  .phone-number {
+    font-size: 13px;
   }
 }
 
@@ -840,18 +1132,72 @@ body {
   
   .hero-title {
     font-size: 3rem;
+    text-align: center;
   }
   
   .hero-card {
     padding: 20px;
+    text-align: center;
+  }
+  
+  .hero-text h2 {
+    text-align: center;
+  }
+  
+  .hero-text p {
+    text-align: center;
+  }
+  
+  .hero-products {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  /* Smaller mobile image sizing */
+  #imager {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  #heighter, #heighterr {
+    height: 80px;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  #lkj {
+    height: 180px;
+    width: 100%;
+    max-width: 250px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .coat-item img,
+  .jewelry-item img {
+    height: 120px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .fur-items img {
+    height: 120px;
+    width: 100%;
+    object-fit: cover;
   }
   
   .overlay-text h2 {
     font-size: 1.5rem;
+    text-align: center;
   }
   
   .overlay-text p {
     font-size: 0.9rem;
+    text-align: center;
   }
   
   .watch-circle {
@@ -874,5 +1220,25 @@ body {
   .coats-gallery,
   .jewelry-gallery {
     grid-template-columns: 1fr;
+  }
+  
+  .footer-content {
+    gap: 20px;
+  }
+  
+  .company-name {
+    font-size: 16px;
+  }
+  
+  .company-address {
+    font-size: 12px;
+  }
+  
+  .phone-number {
+    font-size: 12px;
+  }
+  
+  .email {
+    font-size: 14px;
   }
 }

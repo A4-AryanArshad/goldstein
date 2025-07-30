@@ -507,7 +507,7 @@ function App() {
               <div className="hero-image">
                 <div className="watch-background">
                 
-                <img  id="imager"src="https://api.thewosgroup.com/medias/Rolex-Oyster-Perpetual.png?context=bWFzdGVyfHJvb3R8MzE0MTg3fGltYWdlL3BuZ3xhR1prTDJnMVl5ODVNRGszTWpRd09UTTJORGM0TG5CdVp3fDhlMWI4MWE1ZjA0ZjVjMzAyODYzNDk2MTQ3Y2ViYzRhZTJlZmNhMWEwNzdjNDRlMmYyMzg2NGMwZWFiZDc2NjU&imwidth=1920"></img>
+                <img  id="imager"src="./hw.webp"></img>
                   
                 </div>
                 <div className="overlay-text">
@@ -659,11 +659,29 @@ function App() {
       <footer ref={footerRef} className="footer">
         <div className="container">
           <div className="footer-content">
-            <div className="footer-logo">
-              <div className="logo-circle">
-                <span>G</span>
+            <div className="footer-center">
+              <div className="footer-logo">
+                <div className="logo-circle">
+                  <span>G</span>
+                </div>
+                <span className="logo-text">{t.footer.title}</span>
               </div>
-              <span className="logo-text">{t.footer.title}</span>
+              <div className="company-info">
+                <div className="company-name">GOLDSTONE ART S.R.L</div>
+                <div className="company-address">București, Sector 2, Șoseaua Pantelimon, Nr.127, camera 4, Bl. 201C, Ap.5</div>
+              </div>
+              <div className="contact-info">
+                <div className="phone-numbers">
+                  <div className="phone-number">+04 733 753 924</div>
+                  <div className="phone-number">+386-1 600 93 42</div>
+                  <div className="phone-number">+386-2 600 14 04</div>
+                  <div className="phone-number">+386-2 888 42 31</div>
+                  <div className="phone-number">+386-597 90404</div>
+                  <div className="phone-number">+40-31 630 4061</div>
+                  <div className="phone-number">+49 177 4444232</div>
+                </div>
+                <div className="email">info@goldstein.site</div>
+              </div>
             </div>
           </div>
         </div>
